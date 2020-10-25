@@ -7,7 +7,7 @@ import bit3
 from zaifapi import ZaifPublicApi;
 def send_line_notify(notification_message):
     
-    line_notify_token ='kzCx6Eif4USZIgCLHf4IGCed2rHOruslucutzVQ3YmH'
+    line_notify_token ='**********************'
     line_notify_api = 'https://notify-api.line.me/api/notify'
     headers = {'Authorization': f'Bearer {line_notify_token}'}
     data = {'message': f'message: {notification_message}'}
