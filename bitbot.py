@@ -16,12 +16,12 @@ def send_line_notify(notification_message):
     
 zaif = ZaifPublicApi();
 #print(zaif.last_price("btc_jpy"));
-#print(zaif.last_price("btc_jpy"));
+
 json_str = json.dumps(zaif.last_price("btc_jpy"))
 k = json.loads(json_str)
 
 
-print(k['last_price'])#
+print(k['last_price'])
 
 print(bit3.bitcoin(k['last_price']))
 
@@ -36,13 +36,13 @@ while c == 1  :
             
             #subprocess.check_call(['python3','sall.py'])
             print(x)
-            print('sale bitcoin')
+            #print('sale bitcoin')
             send_line_notify('上昇')
             send_line_notify(x)
  if   bit3.bitcoin(k['last_price'])  < -500:
             print(x)
             #subprocess.check_call(['python3','buy.py'])
-            print('buy bitcoin')
+            #print('buy bitcoin')
             send_line_notify('下降')
             send_line_notify(x)
            
