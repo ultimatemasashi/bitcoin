@@ -5,6 +5,8 @@
 bitbot.pyを実行したときのビットコインを差ゼロとしてスタート
 さがった時、上がった時にLINEにメッセージを送ります。
 
+![bitbot](https://github.com/ultimatemasashi/bitcoin/blob/main/123048516_357687738795798_3802554424969825570_n.jpg)
+
 準備として
 
 ・LINE　Notifyでのトークンの取得
